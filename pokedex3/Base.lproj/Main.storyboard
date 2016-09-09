@@ -32,6 +32,7 @@
                             </searchBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="eqq-1g-ofY"/>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="0Oa-UR-OQi">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="F4n-Hw-e5M">
                                     <size key="itemSize" width="105" height="105"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -95,6 +96,9 @@
                             <constraint firstItem="eqq-1g-ofY" firstAttribute="top" secondItem="Nff-rt-bH0" secondAttribute="bottom" id="ygR-1W-78A"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collection" destination="0Oa-UR-OQi" id="Bi8-Th-giS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
